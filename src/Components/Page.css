@@ -1,0 +1,58 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page {
+    
+    margin: 100px;
+    height: 32rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ques {
+    background-color: aquamarine;
+    border-color: blueviolet;
+    border-radius: 2rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    padding: 5rem;
+    box-shadow: 20px 20px 10px grey;
+}
+
+.ans {
+    background-color: aquamarine;
+    display: flex;
+    height: 10rem;
+    flex-direction: column;
+    justify-items: left;
+    font-size: larger;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 20px 20px 10px grey;
+}
+
+.toggle {
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    box-shadow: 20px 20px 10px grey;
+}
